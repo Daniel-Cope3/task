@@ -1,0 +1,43 @@
+<body>
+    <form action="">
+        <input type="text" placeholder="Search">
+    </form>
+    <header>
+        <h1>CheapFlights</h1>
+    </header>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Offers.html">Offers</a>
+        <a href="News.html">News</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Searched.html"></a>
+    </nav>
+    <main>
+        <h2>Best holidays, Best prices</h2>
+        <p>Book your holiday here</p>
+        <form>
+            <div>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination">
+            </div>
+            <div>
+                <label for="departure">Departure Date:</label>
+                <input type="text" id="departure" name="departure">
+            </div>
+            <div>
+                <label for="return">Return Date:</label>
+                <input type="text" id="return" name="return">
+            </div>
+            <div>
+                <label for="passengers">Number of Passengers:</label>
+                <input type="text" id="passengers" name="passengers">
+            </div>
+            <button type="submit">Search Flights</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Website.</p>
+    </footer>
+</body>
+</html>
